@@ -1,0 +1,22 @@
+generated: '2026-07-18'
+method: searched
+source: https://docs.detectify.com/developer/authentication
+docs: https://docs.detectify.com/developer/authentication
+reference: https://developer.detectify.com/
+summary:
+  types: [apiKey]
+  api_key_in: [header]
+  oauth2_flows: []
+schemes:
+- name: ApiKeyAuth
+  type: apiKey
+  in: header
+  parameter_name: Authorization
+  format: >-
+    API key (UUID) passed in the Authorization header. Keys are generated on the
+    API keys page in the Detectify dashboard and scoped to a team.
+  sources: [https://developer.detectify.com/]
+notes: >-
+  The Detectify REST API (base https://api.detectify.com/rest/v3) authenticates
+  with a per-team API key supplied in the Authorization header. No OAuth2 / OIDC
+  surface is documented, so no scopes/ artifact is produced.
