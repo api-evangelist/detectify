@@ -1,0 +1,31 @@
+generated: '2026-07-18'
+method: searched
+source: https://developer.detectify.com/
+docs: https://developer.detectify.com/
+authentication:
+  style: api-key-header
+  header: Authorization
+  ref: authentication/detectify-authentication.yml
+versioning:
+  style: uri-path
+  current: v3
+  ref: lifecycle/detectify-lifecycle.yml
+base_url: https://api.detectify.com/rest/v3
+idempotency:
+  supported: false
+  note: No idempotency-key header/contract is documented.
+pagination:
+  style: unknown
+  note: Not documented on the public developer portal (spec is behind an
+    authenticated download blob).
+error_envelope:
+  note: Not confirmable without the OpenAPI spec; see conformance/ for status.
+rate_limiting:
+  signaled: unknown
+  note: No rate-limit headers documented on the public portal.
+notes: >-
+  Cross-cutting semantics captured from the public developer portal. The full
+  OpenAPI spec is only downloadable from an authenticated dashboard blob
+  (api.detectify.com/rest/v3 returns 403 unauthenticated), so pagination, error
+  envelope, and rate-limit signaling could not be confirmed. No Idempotency
+  pointer emitted (idempotency is not documented).

@@ -1,0 +1,30 @@
+generated: '2026-07-18'
+method: searched
+status: published
+source: https://www.businesswire.com/news/home/20260526990378/en/Detectify-Launches-MCP-Server-to-Secure-the-Autonomous-Coding-Loop
+docs: https://docs.detectify.com/
+announced: '2026-05-26'
+server:
+  name: detectify
+  transport: http
+  hosting: remote
+  url: null
+  note: >-
+    Detectify launched a remotely-hosted MCP Server (May 2026) that brings its
+    security-testing engines and attack-surface data into AI-driven development
+    workflows. The exact connection URL is provisioned per organization and is
+    not published on a public page; connect a preferred AI tool to the remotely
+    hosted Detectify MCP Server per the setup docs.
+capabilities:
+- name: find_and_fix
+  description: >-
+    Receive remediation tasks, generate patches, trigger Detectify validation
+    scans, and present verified fixes for human review.
+- name: conversational_command
+  description: >-
+    Query scan results, monitor asset status, and surface high-severity findings
+    through natural-language interactions.
+- name: attack_surface_query
+  description: >-
+    Interpret attack-surface data and validate whether a finding is actually
+    exploitable before software reaches production.

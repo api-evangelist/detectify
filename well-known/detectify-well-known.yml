@@ -1,0 +1,38 @@
+generated: '2026-07-18'
+method: searched
+source: live probe of /.well-known/ on website + API host
+hosts:
+- host: https://detectify.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 200
+    file: detectify-security.txt
+    note: RFC 9116 security.txt (real document)
+  - path: /.well-known/openid-configuration
+    status: 200
+    file: null
+    note: soft-200 SPA HTML, not a real OIDC discovery document
+  - path: /.well-known/oauth-authorization-server
+    status: 200
+    file: null
+    note: soft-200 SPA HTML, not a real RFC 8414 document
+  - path: /.well-known/api-catalog
+    status: 200
+    file: null
+    note: soft-200 SPA HTML, not a real RFC 9727 api-catalog
+  - path: /.well-known/ai-plugin.json
+    status: 200
+    file: null
+    note: soft-200 SPA HTML, not a real ai-plugin manifest
+- host: https://api.detectify.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 403
+  - path: /.well-known/openid-configuration
+    status: 403
+  - path: /.well-known/oauth-authorization-server
+    status: 403
+  - path: /.well-known/api-catalog
+    status: 403
+  - path: /.well-known/ai-plugin.json
+    status: 403

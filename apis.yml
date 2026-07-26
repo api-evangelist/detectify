@@ -1,22 +1,67 @@
 aid: detectify
 name: detectify
-description: detectify is a company surfaced as a portfolio company of balderton-capital, insight-partners
-  and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the
-  enrichment pipeline.
+description: >-
+  Detectify is an External Attack Surface Management (EASM) and Dynamic
+  Application Security Testing (DAST) platform that continuously discovers an
+  organization's internet-facing assets and runs real, payload-based
+  vulnerability tests against them. Its testing engine is fuelled by Crowdsource,
+  a network of ~400 vetted ethical hackers who contribute 1,765+ vulnerability
+  modules at a ~99.7% true-positive rate. Detectify ships four products — Surface
+  Monitoring (attack surface management), Application Scanning (web app DAST),
+  API Scanning (OpenAPI-driven API security testing), and Internal Scanning — plus
+  a REST API (v3), a remotely-hosted MCP server for AI-driven workflows, and
+  integrations for Jira, Slack, Splunk, and CI/CD. Founded in Stockholm and backed
+  by Balderton Capital and Insight Partners.
 url: https://raw.githubusercontent.com/api-evangelist/detectify/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: self-serve
+  trial: false
+  try_now: false
+  public: false
+  label: Self-serve signup
+  confidence: medium
+  source:
+  - authentication
+  generated: '2026-07-22'
+  method: derived
+image: https://d35ayjp87i0qx4.cloudfront.net/detectify_global.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - balderton-capital
 - insight-partners
-x-tier: stub
+x-tier: enriched
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
-apis: []
+- Security
+- Cybersecurity
+- Attack Surface Management
+- EASM
+- Vulnerability Scanning
+- DAST
+- Application Security
+- API Security
+apis:
+- name: Detectify REST API
+  description: >-
+    RESTful API (v3) for managing assets and retrieving attack-surface and scan
+    data — surface-monitoring domains and IPs, IP addresses, technologies, ports,
+    breaches, and cloud connectors. Authenticates with a per-team API key in the
+    Authorization header.
+  humanURL: https://developer.detectify.com/
+  baseURL: https://api.detectify.com/rest/v3
+  properties:
+  - type: APIReference
+    url: https://developer.detectify.com/
+  - type: Documentation
+    url: https://docs.detectify.com/developer
+  - type: Authentication
+    url: authentication/detectify-authentication.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
@@ -25,3 +70,62 @@ maintainers:
 common:
 - type: Website
   url: https://detectify.com/
+- type: DeveloperPortal
+  url: https://developer.detectify.com/
+- type: Documentation
+  url: https://docs.detectify.com/
+- type: APIReference
+  url: https://developer.detectify.com/
+- type: GettingStarted
+  url: https://docs.detectify.com/getting-started
+- type: Support
+  url: https://support.detectify.com/
+- type: Blog
+  url: https://blog.detectify.com/
+- type: GitHubOrganization
+  url: https://github.com/detectify
+- type: Pricing
+  url: https://detectify.com/pricing
+- type: SignUp
+  url: https://detectify.com/createaccount
+- type: TermsOfService
+  url: https://detectify.com/terms-of-use
+- type: PrivacyPolicy
+  url: https://detectify.com/privacy-policy
+- type: StatusPage
+  url: https://status.detectify.com/
+- type: Security
+  url: https://detectify.com/responsible-disclosure
+- type: Compliance
+  url: https://docs.detectify.com/security-and-compliance
+- type: Authentication
+  url: authentication/detectify-authentication.yml
+- type: Lifecycle
+  url: lifecycle/detectify-lifecycle.yml
+- type: Conventions
+  url: conventions/detectify-conventions.yml
+- type: Conformance
+  url: conformance/detectify-conformance.yml
+- type: Webhooks
+  url: asyncapi/detectify-webhooks.yml
+- type: MCPServer
+  url: mcp/detectify-mcp.yml
+- type: LLMsTxt
+  url: llms/detectify-llms.txt
+- type: WellKnown
+  url: well-known/detectify-well-known.yml
+- type: SecurityTxt
+  url: well-known/detectify-security.txt
+- type: Packages
+  url: packages/detectify-packages.yml
+- type: DomainSecurity
+  url: security/detectify-domain-security.yml
+- type: VulnerabilityDisclosure
+  url: security/detectify-vulnerability-disclosure.yml
+- type: TrustCenter
+  url: security/detectify-trust-center.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

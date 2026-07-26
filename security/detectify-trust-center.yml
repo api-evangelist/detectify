@@ -1,0 +1,14 @@
+generated: '2026-07-18'
+method: searched
+probe: true
+source: https://detectify.com/
+url: https://detectify.com/
+certifications:
+- ISO 27001
+- PCI DSS
+- GDPR
+evidence:
+- source: https://detectify.com/
+  keywords:
+  - pci dss
+  - gdpr

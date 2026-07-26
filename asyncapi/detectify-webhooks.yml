@@ -1,0 +1,29 @@
+generated: '2026-07-18'
+method: searched
+type: Webhooks
+source: https://docs.detectify.com/integrations/other/webhooks
+docs: https://docs.detectify.com/integrations
+note: >-
+  Detectify supports outbound custom webhooks as an integration option, allowing
+  findings/events to be pushed to a subscriber URL. No published AsyncAPI
+  document exists, and the specific event/trigger payload catalog is not
+  enumerated on the public docs, so no AsyncAPI spec is fabricated. This captures
+  the webhook surface only.
+webhooks:
+- name: custom-webhook
+  direction: outbound
+  description: >-
+    User-configured webhook that posts Detectify findings/notifications to a
+    subscriber URL. Configured under Integrations > Other > Webhooks.
+  events: []
+  events_note: Specific event types/payloads are not enumerated on public docs.
+related_integrations:
+- Jira (bi-directional ticketing)
+- Slack
+- Microsoft Teams
+- PagerDuty
+- OpsGenie
+- ServiceNow
+- Splunk (SIEM)
+- GitLab CI/CD
+- GitHub Actions

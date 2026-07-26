@@ -1,0 +1,21 @@
+generated: '2026-07-18'
+method: searched
+source: https://docs.detectify.com/developer
+versioning:
+  scheme: uri-path
+  current: v3
+  supported: [v2, v3]
+  docs: https://developer.detectify.com/
+  note: >-
+    Version is carried in the URL path (/rest/v3). v2 remains available as a
+    legacy version; v3 is current.
+deprecation:
+  policy_url: null
+  sunset_header: null
+  note: No formal deprecation/sunset-header policy is published; v2 remains a
+    documented legacy version.
+sla:
+  url: null
+  uptime_target: null
+status_page: https://status.detectify.com/
+deprecated_operations: []

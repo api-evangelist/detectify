@@ -1,0 +1,24 @@
+generated: '2026-07-18'
+method: searched
+source: https://github.com/detectify
+note: >-
+  No first-party distributed SDK package was found on npm, PyPI, RubyGems,
+  Packagist, NuGet, Maven Central, pkg.go.dev, or crates.io (the PyPI "detectify"
+  project is an unrelated image spot-detection plugin). Detectify publishes
+  first-party EXAMPLE API clients in its GitHub org rather than versioned SDK
+  packages. Recorded here as source-code example clients; no SDKs pointer emitted.
+packages:
+- language: python
+  registry: github
+  name: detectify/api-examples
+  url: https://github.com/detectify/api-examples
+  kind: example-client
+  official: true
+  note: Example clients for the Detectify API v2.
+- language: python
+  registry: github
+  name: detectify/api-v2-examples
+  url: https://github.com/detectify/api-v2-examples
+  kind: example-client
+  official: true
+  note: Updated example clients for the Detectify v2 API.

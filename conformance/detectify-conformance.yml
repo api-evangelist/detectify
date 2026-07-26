@@ -1,0 +1,26 @@
+generated: '2026-07-18'
+method: searched
+source: https://docs.detectify.com/security-and-compliance
+docs: https://docs.detectify.com/security-and-compliance
+note: >-
+  Detectify is ISO 27001 certified (stated on detectify.com and its security.txt
+  surface) and is SOC 2 / GDPR aligned. The security-and-compliance page also
+  maps the platform's scanner coverage to a broad set of frameworks (OWASP,
+  PCI DSS, HIPAA, NIST CSF, DORA, NIS2, etc.) — those are testing-coverage
+  mappings, distinct from Detectify's own corporate certifications.
+standards:
+- id: iso-27001
+  conforms: true
+  evidence: Detectify is ISO 27001 certified (detectify.com).
+- id: soc2
+  conforms: true
+  evidence: SOC 2 listed among Detectify's security & compliance posture.
+- id: gdpr
+  conforms: true
+  evidence: GDPR compliance stated on detectify.com and security-and-compliance docs.
+- id: oauth2
+  conforms: false
+  evidence: API uses header API-key auth; no OAuth2 surface documented.
+- id: rfc9457-problem-details
+  conforms: false
+  evidence: No public OpenAPI available to confirm problem+json error envelope.
