@@ -51,7 +51,7 @@
     app_slug: detectify
     beta: false
     builder: unknown (not in the directory record)
-  status: pending-partner-spec
+  status: not-a-workflow
   arazzo: null
 - slug: detectify-pipedream
   label: Pipedream
@@ -77,5 +77,5 @@
     actions: false
     sources: true
     builder: Pipedream repo (component)
-  status: pending-partner-spec
+  status: not-a-workflow
   arazzo: null
