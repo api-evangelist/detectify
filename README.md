@@ -64,6 +64,113 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-detectify is a company surfaced as a portfolio company of balderton-capital, insight-partners and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+Detectify is an External Attack Surface Management (EASM) and Dynamic Application Security Testing (DAST) platform that continuously discovers an organization's internet-facing assets and runs real, payload-based vulnerability tests against them. Its testing engine is fuelled by Crowdsource, a network of ~400 vetted ethical hackers who contribute 1,765+ vulnerability modules at a ~99.7% true-positive rate. Detectify ships four products — Surface Monitoring (attack surface management), Application Scanning (web app DAST), API Scanning (OpenAPI-driven API security testing), and Internal Scanning — plus a REST API (v3), a remotely-hosted MCP server for AI-driven workflows, and integrations for Jira, Slack, Splunk, and CI/CD. Founded in Stockholm and backed by Balderton Capital and Insight Partners.
 
-Backed by: balderton-capital, insight-partners — https://detectify.com/
+**Areas:** Company · Security · Cybersecurity · Attack Surface Management · EASM · Vulnerability Scanning · DAST · Application Security · API Security
+
+## detectify on APIs.io
+
+Everything profiled for detectify is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/detectify/](https://apis.io/providers/detectify/)** — or go straight to one of the APIs or properties below.
+
+### APIs (1)
+
+- [Detectify REST API](https://apis.io/apis/detectify/detectify-rest-api/) — RESTful API (v3) for managing assets and retrieving attack-surface and scan data — surface-monitoring domains and IPs, IP addresses, technologies, ports,…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### AsyncAPI (1)
+
+Event-driven and webhook contracts.
+
+- [Detectify Webhooks](https://apis.io/asyncapis/detectify/detectify-webhooks/)
+
+#### MCP servers (1)
+
+Model Context Protocol servers that expose the API to agents.
+
+- [detectify](https://apis.io/servers/detectify/detectify/)
+
+#### Security (4)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Detectify Authentication](https://apis.io/security/detectify/detectify-authentication/)
+- [Detectify Domain Security](https://apis.io/security/detectify/detectify-domain-security/)
+- [Detectify Trust Center](https://apis.io/security/detectify/detectify-trust-center/)
+- [Detectify Vulnerability Disclosure](https://apis.io/security/detectify/detectify-vulnerability-disclosure/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://detectify.com/)
+- [Documentation](https://docs.detectify.com/)
+- [Getting started](https://docs.detectify.com/getting-started)
+- [API reference](https://developer.detectify.com/)
+- [Pricing](https://detectify.com/pricing)
+- [Sign up](https://detectify.com/createaccount)
+- [Support](https://support.detectify.com/)
+- [Blog](https://blog.detectify.com/)
+- [Security](https://detectify.com/responsible-disclosure)
+- [Compliance](https://docs.detectify.com/security-and-compliance)
+- [Terms of service](https://detectify.com/terms-of-use)
+- [Privacy policy](https://detectify.com/privacy-policy)
+- [GitHub](https://github.com/detectify)
+- [Status](https://status.detectify.com/)
+
+## API Evangelist rating
+
+**Kin Score 41.6** — developing · rubric 0.25.0 · scored 2026-10-23
+
+| Facet | Score |
+|---|---|
+| Discoverability | 71.7 |
+| Contract quality | 39.0 |
+| Contract governance | 18.2 |
+| Operational transparency | 26.3 |
+| Developer ergonomics | 57.1 |
+| Access clarity | 28.9 |
+
+**Agent readiness 23.2** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | yes |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | na |
+
+**Regulatory alignment 27.5** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/detectify/](https://apis.io/providers/detectify/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for detectify: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/detectify/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
